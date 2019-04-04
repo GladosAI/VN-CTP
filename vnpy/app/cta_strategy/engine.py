@@ -101,7 +101,7 @@ class CtaEngine(BaseEngine):
     def init_engine(self):
         """
         """
-        self.init_rqdata()
+        # self.init_rqdata()
         self.load_strategy_class()
         self.load_strategy_setting()
         self.load_strategy_data()
