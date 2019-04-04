@@ -8,7 +8,4 @@ numpy
 pandas
 matplotlib
 seaborn
-futu-api
-tigeropen
 ta-lib
-ibapi

@@ -1,0 +1,24 @@
+name: vnctp
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2019.1.23=0
+  - certifi=2019.3.9=py37_0
+  - openssl=1.1.1b=he774522_1
+  - pip=19.0.3=py37_0
+  - python=3.7.3=h8c8aaf0_0
+  - setuptools=40.8.0=py37_0
+  - sqlite=3.27.2=he774522_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.15.26706=h3a45250_0
+  - wheel=0.33.1=py37_0
+  - wincertstore=0.2=py37_0
+  - pip:
+    - numpy==1.16.2
+    - peewee==3.9.2
+    - pyqt5==5.11.3
+    - pyqt5-sip==4.19.15
+    - qdarkstyle==2.6.5
+    - ta-lib==0.4.17
+prefix: G:\project\anaconda\envs\vnctp
+
