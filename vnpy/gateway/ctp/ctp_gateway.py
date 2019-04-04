@@ -301,7 +301,11 @@ class CtpMdApi(MdApi):
             ask_price_1=data["AskPrice1"],
             bid_volume_1=data["BidVolume1"],
             ask_volume_1=data["AskVolume1"],
-            gateway_name=self.gateway_name
+            gateway_name=self.gateway_name,
+            presettlement_price=data["PreSettlementPrice"],  # 新增字段前结算价
+            preopen_interest=data["PreOpenInterest"],  # 新增字段前开仓数
+            turnover=data["Turnover"],  # 新增字段总成交额
+            open_interest=data["OpenInterest"]  # 新增字段今开仓数
         )
         self.gateway.on_tick(tick)  
 

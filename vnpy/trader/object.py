@@ -70,6 +70,11 @@ class TickData(BaseData):
     ask_volume_4: float = 0
     ask_volume_5: float = 0
 
+    presettlement_price: float = 0  # 新增字段前结算价
+    preopen_interest: float = 0     # 新增字段前开仓数
+    turnover: float = 0             # 新增字段总成交额
+    open_interest:float = 0         # 新增字段今开仓数
+
     def __post_init__(self):
         """"""
         self.vt_symbol = f"{self.symbol}.{self.exchange.value}"
